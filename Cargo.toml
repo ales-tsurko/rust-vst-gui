@@ -14,10 +14,10 @@ cocoa = "0.20.0"
 webview-sys = { path = "webview-sys", version = "0.0.1" }
 
 [target.'cfg(windows)'.dependencies]
-memoffset = "0.2.1"
+memoffset = "0.6.1"
 
 [target.'cfg(windows)'.dependencies.winapi]
-version = "0.3.4"
+version = "0.3.9"
 features = [
     "combaseapi",
     "libloaderapi",
